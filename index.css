@@ -117,16 +117,20 @@ body {
   }
 
   .slide {
-    height: 500px;
+    height: 100%;
     grid-column: 2;
     grid-row: 1;
-    position: relative;
-    right: 10%;
+    padding: 10%;
   }
 
+  .slide__image {
+    height: 100%;
+    width: 100%;
+  }
+  
   .slide__image > img {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
   }
 
   .slide__navigator {
